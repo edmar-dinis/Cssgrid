@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Meu Site</h1>
+        </header>
+
+        <div class="corpo">
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <div class="form-cadastro">
+                    <h2>Cadastro de Usuário</h2>
+                    <form>
+
+                        <div class="campo">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite o seu nome">
+                        </div>
+
+                        <div class="campo">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+                        </div>
+
+                        <div class="campo">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Digite a sua palavra-passe">
+                        </div>
+
+                        <div class="campo">
+                            <label for="sexo">Sexo</label>
+                            <select id="sexo" name="sexo">
+                                <option value="">Selecione</option>
+                                <option value="feminino">Feminino</option>
+                                <option value="masculino">Masculino</option>
+                            </select>
+                        </div>
+
+                        <div class="campo">
+                            <label for="endereco">Endereço</label>
+                            <input type="text" id="endereco" name="endereco" placeholder="Digite o seu endereço">
+                        </div>
+
+                        <div class="campo">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="Digite o seu telefone">
+                        </div>
+
+                        <div class="campo">
+                            <label for="nacionalidade">Nacionalidade</label>
+                            <input type="text" id="nacionalidade" name="nacionalidade" placeholder="Digite a sua nacionalidade">
+                        </div>
+
+                        <div class="campo">
+                            <label for="nivel">Nível Académico</label>
+                            <select id="nivel" name="nivel">
+                                <option value="">Selecione</option>
+                                <option value="ensino-basico">Ensino Básico</option>
+                                <option value="ensino-medio">Ensino Médio</option>
+                                <option value="licenciatura">Licenciatura</option>
+                                <option value="mestrado">Mestrado</option>
+                                <option value="doutoramento">Doutoramento</option>
+                            </select>
+                        </div>
+
+                        <div class="campo">
+                            <label for="profissao">Profissão</label>
+                            <input type="text" id="profissao" name="profissao" placeholder="Digite a sua profissão">
+                        </div>
+
+                        <div class="botoes-form">
+                            <button type="submit" class="btn-enviar">Cadastrar</button>
+                            <button type="reset" class="btn-limpar">Limpar</button>
+                        </div>
+
+                    </form>
+                </div>
+            </main>
+
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Edmar - Todos os direitos reservados</p>
+            <div class="links-rapidos">
+                <a href="sobre.html">Sobre</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="cadastro.html">Cadastro</a>
+            </div>
+        </footer>
+
+    </div>
+
+    <a href="#" class="btn-topo" onclick="window.scrollTo({top:0, behavior:'smooth'}); return false;">Topo</a>
+
+</body>
+</html>
